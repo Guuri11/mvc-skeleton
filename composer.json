@@ -1,0 +1,16 @@
+{
+    "name": "joseluhadbos/mvc-skeleton",
+    "description": "mvc skeleton with php",
+    "authors": [
+        {
+            "name": "Hadbos",
+            "email": "info@hadbos.com"
+        }
+    ],
+    "require": {
+        
+    },
+    "autoload": {
+        "psr-4": {"App\\": "src/"}
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "database": {
+      "user": "root",
+      "password": "admindaw2020",
+      "dsn": "mysql: host=localhost; dbname=mvc-skeleton",
+      "options": {
+      }
+    }
+  }

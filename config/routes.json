@@ -1,0 +1,32 @@
+{
+  "mvc-skeleton/": {
+    "controller": "Test",
+    "method": "index"
+  },
+  "mvc-skeleton/inicio": {
+    "controller": "Test",
+    "method": "index"
+  },
+  "mvc-skeleton/:id": {
+    "controller": "Test",
+    "method": "showTest",
+    "params": {
+      "id": "number"
+    }
+  },
+  "mvc-skeleton/inicio/:id": {
+    "controller": "Test",
+    "method": "showTest",
+    "params": {
+      "id": "number"
+    }
+  },
+  "mvc-skeleton/inicio/:test_name": {
+    "controller": "Test",
+    "method": "showTestByName",
+    "params": {
+      "test_name": "string"
+    }
+  }
+  
+}
